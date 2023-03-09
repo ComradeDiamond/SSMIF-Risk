@@ -186,9 +186,6 @@ class CompareMetrics():
       xValues = self.compareMetrics["Sharpe"]
       yValues = self.compareMetrics["Burke"]
 
-      print(xValues.tolist())
-      print(yValues.tolist())
-
       averageX = xValues.mean()
       averageY = yValues.mean()
 
